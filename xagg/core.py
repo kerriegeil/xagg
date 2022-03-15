@@ -490,5 +490,5 @@ def aggregate(ds,wm):
 
     # Return
     print('all variables aggregated to polygons!')
-    return 
+    return agg_out
 
