@@ -6,7 +6,7 @@ from shapely.geometry import Polygon
 import warnings
 import xesmf as xe
 
-from . aux import (find_rel_area,fix_ds,get_bnds,subset_find,list_or_first)
+from . aux import (normalize,find_rel_area,fix_ds,get_bnds,subset_find,list_or_first)
 from . classes import (weightmap,aggregated)
 
 
